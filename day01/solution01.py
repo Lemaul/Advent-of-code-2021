@@ -26,7 +26,7 @@ def count_sum_increases(measurements):
 
 
 def main():
-  file = 'day01.txt'
+  file = 'input01.txt'
   measurements = get_numbers(file)
   # print(count_increases(measurements))
   print(count_sum_increases(measurements))
